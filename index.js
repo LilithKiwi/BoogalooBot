@@ -109,4 +109,4 @@ bot.on("guildMemberSpeaking", (member, speaking) => {
     } else console.log(`${member.displayName} has stopped talking`)
 });
 
-bot.login("Nzk3OTgxOTM1MDkxMDU2NjUw.X_uYlw.Y4mgwkkwepoOT7QXJllPC0ddrPY");
+bot.login(fs.readFileSync("token.txt"));
