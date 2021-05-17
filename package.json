@@ -1,0 +1,19 @@
+{
+  "name": "boogaloobot",
+  "version": "1.0.0",
+  "description": "gay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LilithKiwi",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "deepspeech": "^0.9.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "ytdl-core": "^4.8.0",
+    "ytsr": "^3.5.0"
+  }
+}
